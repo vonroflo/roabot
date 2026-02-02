@@ -21,6 +21,20 @@ All temporary files you create to complete your task (scripts, downloads, screen
 
 Only write files outside `workspace/` when you are intentionally updating files that belong to the repository itself.
 
+## Node.js Scripts
+
+When writing Node.js scripts, **always call `process.exit(0)` after successful completion**. Scripts that don't explicitly exit will hang indefinitely. Use try/finally to ensure exit is called:
+
+```javascript
+(async () => {
+  try {
+    // ... your code
+  } finally {
+    process.exit(0);
+  }
+})();
+```
+
 ## Workflow
 
 1. Read and understand your assigned task
