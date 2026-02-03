@@ -1,1 +1,1 @@
-remove x.js from the project
+clear out workspace/logs/*
