@@ -1,9 +1,1 @@
-Create a weather forecast tool that can fetch and display the 7-day weather forecast for Las Vegas. This should involve:
-
-1. Research and integrate with a weather API (like OpenWeatherMap, WeatherAPI, or similar free service)
-2. Create a script or function that can retrieve weather data for Las Vegas specifically
-3. Format the output to show a clear 7-day forecast with key details like temperature, conditions, and any notable weather
-4. Handle API errors gracefully
-5. Make it easy to run and get the current forecast
-
-The user wants to see the weather in Las Vegas over the next 7 days, so this tool should be ready to use and provide that specific information.
+Create a weather application or script that fetches and displays the 7-day weather forecast for Las Vegas, NV. The solution should integrate with a weather API (such as OpenWeatherMap, WeatherAPI, or similar free service) to retrieve current weather conditions and a 7-day forecast. Display the information in a clear, readable format including temperature, weather conditions, and any other relevant details like humidity or wind speed. The implementation should be functional and ready to use.
