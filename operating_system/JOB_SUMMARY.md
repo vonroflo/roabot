@@ -18,12 +18,13 @@ Status: ⏳ Open — please review the Pull Request (hyperlink to the PR on GitH
 
 Changes:
 
-List changed files ONLY using dashes not bullets, not clickable) — no explanations next to the files.
+List changed files as clickable HTML links using dashes — no explanations next to the files.
 (Note: don't include /logs in the list)
+Use the GitHub base URL provided in the data to construct links to each file.
+Display the full repository path for each file, not just the filename.
 
-- /folder/file1
-- /folder/file2
-- /folder/fileX
+- <a href="{github_base_url}/{full/path/to/file1}">full/path/to/file1</a>
+- <a href="{github_base_url}/{full/path/to/file2}">full/path/to/file2</a>
 
 Here's what happened:
 

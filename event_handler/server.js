@@ -198,11 +198,17 @@ async function summarizeJob(results) {
       path.join(__dirname, '..', 'operating_system', 'JOB_SUMMARY.md')
     );
 
+    // Build GitHub base URL for file links (e.g., https://github.com/owner/repo/blob/main)
+    const ghOwner = process.env.GH_OWNER;
+    const ghRepo = process.env.GH_REPO;
+    const githubBaseUrl = ghOwner && ghRepo ? `https://github.com/${ghOwner}/${ghRepo}/blob/main` : '';
+
     // User message: structured job results
     const userMessage = [
       results.job ? `## Task\n${results.job}` : '',
       results.commit_message ? `## Commit Message\n${results.commit_message}` : '',
       results.changed_files?.length ? `## Changed Files\n${results.changed_files.join('\n')}` : '',
+      githubBaseUrl ? `## GitHub Base URL for File Links\n${githubBaseUrl}` : '',
       results.pr_status ? `## PR Status\n${results.pr_status}` : '',
       results.merge_result ? `## Merge Result\n${results.merge_result}` : '',
       results.pr_url ? `## PR URL\n${results.pr_url}` : '',
