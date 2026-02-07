@@ -1,0 +1,1 @@
+Read operating_system/research_agent/RESEARCH_AGENT.md and generate today's financial market report. Update the file at operating_system/research_agent/financialreport.md with current market data, analysis, and insights using Brave Search.
