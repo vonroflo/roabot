@@ -1,16 +1,16 @@
-# thepopebot
+# Roabot
 
 **Autonomous AI agents. All the power. None of the leaked API keys.**
 
 ---
 
-## Why thepopebot?
+## Why Roabot?
 
-**Secure by default** — Other frameworks hand credentials to the LLM and hope for the best. thepopebot is different: the AI literally cannot access your secrets, even if it tries. Secrets are filtered at the process level before the agent's shell even starts.
+**Secure by default** — Other frameworks hand credentials to the LLM and hope for the best. Roabot is different: the AI literally cannot access your secrets, even if it tries. Secrets are filtered at the process level before the agent's shell even starts.
 
 **The repository IS the agent** — Every action your agent takes is a git commit. You can see exactly what it did, when, and why. If it screws up, revert it. Want to clone your agent? Fork the repo — code, personality, scheduled jobs, full history, all of it goes with your fork.
 
-**Free compute, built in** — Every GitHub account comes with free cloud computing time. thepopebot uses that to run your agent. One task or a hundred in parallel — the compute is already included.
+**Free compute, built in** — Every GitHub account comes with free cloud computing time. Roabot uses that to run your agent. One task or a hundred in parallel — the compute is already included.
 
 **Self-evolving** — The agent modifies its own code through pull requests. Every change is auditable, every change is reversible. You stay in control.
 
@@ -57,7 +57,7 @@ You talk to your bot on Telegram (or hit a webhook). The Event Handler creates a
 
 ## Get FREE server time on Github!
 
-| | thepopebot | Other platforms |
+| | Roabot | Other platforms |
 |---|---|---|
 | **Public repos** | Free. $0. GitHub Actions doesn't charge. | $20-100+/month |
 | **Private repos** | 2,000 free minutes/month (every GitHub plan, including free) | $20-100+/month |
@@ -85,15 +85,15 @@ You just bring your own [Anthropic API key](https://console.anthropic.com/).
 
 **Step 1** — Fork this repository:
 
-[![Fork this repo](https://img.shields.io/badge/Fork_this_repo-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stephengpope/thepopebot/fork)
+[![Fork this repo](https://img.shields.io/badge/Fork_this_repo-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vonroflo/roabot/fork)
 
 > GitHub Actions are disabled by default on forks. Go to the **Actions** tab in your fork and enable them.
 
 **Step 2** — Clone your fork:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/thepopebot.git
-cd thepopebot
+git clone https://github.com/YOUR_USERNAME/roabot.git
+cd roabot
 ```
 
 **Step 3** — Run the setup wizard:

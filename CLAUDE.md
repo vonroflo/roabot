@@ -4,7 +4,7 @@ This document explains the Roabot codebase for AI assistants working on this pro
 
 ## What is Roabot?
 
-Roabot is a custom autonomous AI agent built on the thepopebot framework. It features a two-layer architecture: an Event Handler for orchestration (webhooks, Telegram chat, cron scheduling) and a Docker Agent for autonomous task execution via the Pi coding agent.
+Roabot is an autonomous AI agent framework by Vonroflo. It features a two-layer architecture: an Event Handler for orchestration (webhooks, Telegram chat, cron scheduling) and a Docker Agent for autonomous task execution via the Pi coding agent.
 
 ## Two-Layer Architecture
 
