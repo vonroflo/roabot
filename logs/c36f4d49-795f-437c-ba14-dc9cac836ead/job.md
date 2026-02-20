@@ -1,0 +1,1 @@
+Check the current Telegram bot token by reading the TELEGRAM_BOT_TOKEN environment variable and display it securely. The user wants to see their current bot token configuration.
