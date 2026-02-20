@@ -1,4 +1,4 @@
-name: Run thepopebot Job
+name: Run Roabot Job
 
 on:
   create:
@@ -20,7 +20,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run thepopebot Agent
+      - name: Run Roabot Agent
         env:
           IMAGE_URL: ${{ vars.IMAGE_URL }}
           MODEL: ${{ vars.MODEL }}
@@ -28,7 +28,7 @@ jobs:
           if [ -n "$IMAGE_URL" ]; then
             IMAGE="${IMAGE_URL}:latest"
           else
-            IMAGE="stephengpope/thepopebot:latest"
+            IMAGE="ghcr.io/vonroflo/roabot:latest"
           fi
           echo "Using image: $IMAGE"
           docker run --rm \

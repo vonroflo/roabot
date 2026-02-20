@@ -1,5 +1,5 @@
 {
-  "name": "thepopebot-event-handler",
+  "name": "roabot-event-handler",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
